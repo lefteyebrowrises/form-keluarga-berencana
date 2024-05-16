@@ -5,6 +5,8 @@ const bodyparser = require("body-parser");
 const db = require("./models");
 const defaultData = require("./insertDefaultData");
 
+// info
+
 // Import router
 const pemakaiRouter = require("./routes/pemakaiRouter");
 const provinsiRouter = require("./routes/provinsiRouter");
